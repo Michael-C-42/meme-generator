@@ -98,8 +98,6 @@ body {
 .hover {
     filter: grayscale(75%);
     opacity: .75;
-    transform: scale(.9);
-    transition: transform .1s;
 }
 
 .meme {
@@ -137,11 +135,6 @@ body {
     display: inline-block;
     padding-right: 70%;
     margin-left: -30px;
-}
-
-.fancy-right {
-    width: 225px;
-    display: inline-block;
 }
 
 #section {
