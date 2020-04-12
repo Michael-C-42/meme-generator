@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="meme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="image"></div>
+    <h1>Fancy Memes for Fancy Folks</h1>
+    <section id="section">
+    <div >
+        <img class="fancy-left" src="https://i.kym-cdn.com/photos/images/newsfeed/000/343/462/79a.gif" alt="">
+    </div>
+    <div class="description" >Generate your meme by finding an image online and adding your text!</div>
+    </section>
+    <div>
+        <label class= 'text-labels' for="top-text">Text on the top</label>
+        <textarea class="textArea" id="top-text" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label class= 'text-labels' for="bottom-text">Text on the bottom</label>
+        <textarea class="textArea" id="bottom-text" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label class= 'meme-label' for="meme-url">Meme URL</label>
+        <input class= 'url-input' type="url" id="image-input" size="100" required>
+    </div>
+    <div>
+        <button id="generate-btn">Create Meme!</button>
+    </div>
+    <div class="container">
+        <ul class="meme-list"></ul>
+    </div>
+    <script src="meme-copy.js"></script>
+</body>
+</html>
